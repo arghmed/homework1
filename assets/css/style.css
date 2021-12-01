@@ -3,10 +3,13 @@
     padding: 0;
     margin: 0;
 }
+/* Body */
 
 body {
     background-color: #d9dcd6;
 }
+
+/* Header */
 
 .header {
     padding: 20px;
@@ -24,7 +27,9 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+/* Navigation */
+
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,14 +37,16 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* Element Styles */
 
 a {
     color: #ffffff;
@@ -49,6 +56,7 @@ a {
 p {
     font-size: 16px;
 }
+/* Hero */
 
 .hero {
     height: 800px;
@@ -59,6 +67,8 @@ p {
     background-position: center;
 }
 
+/* Floats */
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -68,6 +78,8 @@ p {
     float: right;
     margin-left: 25px;
 }
+
+/* Content */
 
 .content {
     width: 75%;
@@ -86,12 +98,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
+.benefits {
     margin-bottom: 32px;
     color: #ffffff;
 }
